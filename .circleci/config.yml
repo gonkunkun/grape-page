@@ -1,32 +1,13 @@
-version: 2
-
-jobs:
-  deploy_dev: # ジョブ名
-    docker:
-      - image: circleci/node:10.7 # ジョブ実行環境のDockerイメージを記述
-    steps:
-      - checkout # ソースコードのチェックアウト
-      - run: # 順に実行したいコマンドとコマンドに名前をつけます
-          name: yarn install
-          command: yarn
-      # - run:
-      #     name: 'Install Dependecies'
-      #     command: yarn lint
-      - run:
-          name: 'build'
-          command: yarn run build
-      - run:
-          name: 'install firebase-tools'
-          command: yarn add --dev firebase-tools
-      - run:
-          name: 'deploy to firebase'
-          command: ./node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN
-
+# Use the latest 2.1 version of CircleCI pipeline process engine. See: https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+# Use a package of configuration called an orb.
+orbs:
+  # Declare a dependency on the welcome-orb
+  welcome: circleci/welcome-orb@0.4.1
+# Orchestrate or schedule a set of jobs
 workflows:
-  version: 2
-  deploy_dev: # ワークフローの名前
+  # Name the workflow "welcome"
+  welcome:
+    # Run the welcome/run job in its own container
     jobs:
-      - deploy_dev: # 上で定義したジョブを指定します
-          filters:
-            branches:
-              only: master # masterブランチのみを実行対象とします
+      - welcome/run
