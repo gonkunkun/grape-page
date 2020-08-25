@@ -11,7 +11,7 @@
         </v-card-title>
         <v-card-text>
           <p>
-            test Vetify is a progressive Material Design component framework for
+            t Vetify is a progressive Material Design component framework for
             Vue.js. It was designed to empower developers to create amazing
             applications.
           </p>
