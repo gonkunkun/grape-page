@@ -8,7 +8,7 @@ jobs:
       - checkout # ソースコードのチェックアウト
       - run: # 順に実行したいコマンドとコマンドに名前をつけます
           name: yarn install
-          command: yarn install
+          command: yarn install -g yarn@1.19.1
       # - run:
       #     name: 'Install Dependecies'
       #     command: yarn lint
