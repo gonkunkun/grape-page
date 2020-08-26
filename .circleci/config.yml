@@ -7,8 +7,11 @@ jobs:
     steps:
       - checkout # ソースコードのチェックアウト
       - run: # 順に実行したいコマンドとコマンドに名前をつけます
+          name: yarn update
+          command: npm isntall -g yarn@1.19.1
+      - run: # 順に実行したいコマンドとコマンドに名前をつけます
           name: yarn install
-          command: yarn install -g yarn@1.19.1
+          command: yarn isntall
       # - run:
       #     name: 'Install Dependecies'
       #     command: yarn lint
