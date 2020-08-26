@@ -7,17 +7,14 @@ jobs:
     steps:
       - checkout # ソースコードのチェックアウト
       - run: # 順に実行したいコマンドとコマンドに名前をつけます
-          name: yarn install
-          command: yarn install
-      # - run:
-      #     name: 'Install Dependecies'
-      #     command: yarn lint
-      - run:
-          name: 'build'
-          command: yarn run build
+          name: npm install
+          command: npm install
       - run:
           name: 'install firebase-tools'
-          command: yarn add --dev firebase-tools
+          command: npm install --save-dev firebase-tools
+      - run:
+          name: 'build'
+          command: npm run build
       - run:
           name: 'deploy to firebase'
           command: ./node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN
