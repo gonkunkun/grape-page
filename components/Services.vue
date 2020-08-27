@@ -75,32 +75,32 @@
 </template>
 
 <script>
-  export default {
-    name: 'Services',
+export default {
+  name: 'Services',
 
-    data: () => ({
-      services: [
-        {
-          name: 'Research',
-          icon: 'mdi-clipboard-text-outline',
-          blurb: 'Curabitur et nisi semper,<br> pellent e sque ',
-        },
-        {
-          name: 'Design',
-          icon: 'mdi-pencil-outline',
-          blurb: 'Curabitur et nisi semper, <br>pellent.',
-        },
-        {
-          name: 'Development',
-          icon: 'mdi-settings-outline',
-          blurb: 'Curabitur et nisi semper, <br>pellent.',
-        },
-        {
-          name: 'Support',
-          icon: 'mdi-account',
-          blurb: 'Curabitur et nisi semper, <br>pellent.',
-        },
-      ],
-    }),
-  }
+  data: () => ({
+    services: [
+      {
+        name: 'Research',
+        icon: 'mdi-clipboard-text-outline',
+        blurb: 'Curabitur et nisi semper,<br> pellent e sque '
+      },
+      {
+        name: 'Design',
+        icon: 'mdi-pencil-outline',
+        blurb: 'Curabitur et nisi semper, <br>pellent.'
+      },
+      {
+        name: 'Development',
+        icon: 'mdi-settings-outline',
+        blurb: 'Curabitur et nisi semper, <br>pellent.'
+      },
+      {
+        name: 'Support',
+        icon: 'mdi-account',
+        blurb: 'Curabitur et nisi semper, <br>pellent.'
+      }
+    ]
+  })
+}
 </script>

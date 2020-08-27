@@ -77,22 +77,22 @@
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      skills: [
-        {
-          name: 'Web Design',
-          value: 100,
-        },
-        {
-          name: 'Web Development',
-          value: 75,
-        },
-        {
-          name: 'Web Support',
-          value: 90,
-        },
-      ],
-    }),
-  }
+export default {
+  data: () => ({
+    skills: [
+      {
+        name: 'Web Design',
+        value: 100
+      },
+      {
+        name: 'Web Development',
+        value: 75
+      },
+      {
+        name: 'Web Support',
+        value: 90
+      }
+    ]
+  })
+}
 </script>

@@ -1,21 +1,21 @@
 <template>
-  <v-app>
+  <!-- <v-app>
     <v-main>
-      <v-container>
-        <nuxt />
-      </v-container>
-    </v-main>
-    <!-- <v-footer :absolute="!fixed" app>
+      <v-container> -->
+  <nuxt />
+  <!-- </v-container> -->
+  <!-- </v-main> -->
+  <!-- <v-footer :absolute="!fixed" app>
       <span>&copy; {{ new Date().getFullYear() }}</span>
     </v-footer> -->
-  </v-app>
+  <!-- </v-app> -->
 </template>
 
 <script>
 export default {
-  data() {
+  data () {
     return {
     }
-  },
+  }
 }
 </script>

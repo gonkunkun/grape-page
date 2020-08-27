@@ -8,14 +8,14 @@
 </template>
 
 <script>
-  export default {
-    name: 'BaseSubheading',
+export default {
+  name: 'BaseSubheading',
 
-    props: {
-      tag: {
-        type: String,
-        default: 'h1',
-      },
-    },
+  props: {
+    tag: {
+      type: String,
+      default: 'h1'
+    }
   }
+}
 </script>

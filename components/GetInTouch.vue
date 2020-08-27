@@ -68,7 +68,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'GetInTouch',
-  }
+export default {
+  name: 'GetInTouch'
+}
 </script>

@@ -8,11 +8,11 @@
 </template>
 
 <script>
-  export default {
-    name: 'CoreFooter',
+export default {
+  name: 'CoreFooter',
 
-    components: {
-      SocialMedia: () => import('@/components/SocialMedia'),
-    },
+  components: {
+    SocialMedia: () => import('@/components/SocialMedia')
   }
+}
 </script>

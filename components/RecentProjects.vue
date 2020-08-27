@@ -58,16 +58,16 @@
 </template>
 
 <script>
-  export default {
-    name: 'RecentProjects',
+export default {
+  name: 'RecentProjects',
 
-    data: () => ({
-      projects: [
-        'project1',
-        'project2',
-        'project3',
-        'project4',
-      ],
-    }),
-  }
+  data: () => ({
+    projects: [
+      'project1',
+      'project2',
+      'project3',
+      'project4'
+    ]
+  })
+}
 </script>

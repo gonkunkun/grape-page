@@ -37,24 +37,24 @@
 </template>
 
 <script>
-  export default {
-    name: 'CoreAppBar',
+export default {
+  name: 'CoreAppBar',
 
-    components: {
-      SocialMedia: () => import('@/components/SocialMedia'),
-    },
+  components: {
+    SocialMedia: () => import('@/components/SocialMedia')
+  },
 
-    data: () => ({
-      showLogo: false,
-      isScrolling: false,
-    }),
+  data: () => ({
+    showLogo: false,
+    isScrolling: false
+  }),
 
-    methods: {
-      onScroll () {
-        const offset = window.pageYOffset
-        this.isScrolling = offset > 50
-        this.showLogo = offset > 200
-      },
-    },
+  methods: {
+    onScroll () {
+      const offset = window.pageYOffset
+      this.isScrolling = offset > 50
+      this.showLogo = offset > 200
+    }
   }
+}
 </script>

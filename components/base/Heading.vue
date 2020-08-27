@@ -8,16 +8,16 @@
 </template>
 
 <script>
-  export default {
-    name: 'BaseHeading',
+export default {
+  name: 'BaseHeading',
 
-    props: {
-      tag: {
-        type: String,
-        default: 'h1',
-      },
-    },
+  props: {
+    tag: {
+      type: String,
+      default: 'h1'
+    }
   }
+}
 </script>
 
 <style lang="sass">

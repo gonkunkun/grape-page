@@ -10,7 +10,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'BaseBtn',
-  }
+export default {
+  name: 'BaseBtn'
+}
 </script>
