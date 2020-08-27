@@ -72,19 +72,19 @@ export default {
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
    */
+  devModules: ['@nuxtjs/vuetify'],
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
+  // customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: false,
       themes: {
-        dark: {
+        light: {
           primary: '#D3C3BC',
           accent: '#D8EBF1',
           secondary: '#BFADA5',
-          info: '#5B5C79',
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3
+          info: '#5B5C79'
+          // warning: colors.amber.base,
+          // error: colors.deepOrange.accent4,
+          // success: colors.green.accent3
         }
       }
     }
