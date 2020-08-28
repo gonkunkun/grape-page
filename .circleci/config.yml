@@ -16,6 +16,9 @@ jobs:
           name: 'build'
           command: npm run build
       - run:
+          name: 'generate'
+          command: npm generate
+      - run:
           name: 'deploy to firebase'
           command: ./node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN
 
