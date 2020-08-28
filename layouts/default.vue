@@ -19,3 +19,10 @@ export default {
   }
 }
 </script>
+
+<style>
+/* 使用する色を定義 */
+:root {
+  --white: #f6f7f9;
+}
+</style>

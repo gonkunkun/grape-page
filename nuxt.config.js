@@ -25,10 +25,10 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
-      },
+        content: process.env.npm_package_description || ''
+      }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   /*
    ** Global CSS
@@ -40,7 +40,7 @@ export default {
    */
   plugins: [
     // { src: '@/plugins/vuetify', ssr: false },
-    '@/plugins/base',
+    '@/plugins/base'
   ],
   /*
    ** Auto import components
@@ -53,14 +53,14 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    '@nuxtjs/vuetify',
+    '@nuxtjs/vuetify'
   ],
   /*
    ** Nuxt.js modules
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
+    '@nuxtjs/axios'
     // '@nuxtjs/vuetify'
     // '@nuxtjs/font-awesome',
   ],
@@ -81,13 +81,13 @@ export default {
           primary: '#D3C3BC',
           accent: '#D8EBF1',
           secondary: '#BFADA5',
-          info: '#5B5C79',
+          info: '#5B5C79'
           // warning: colors.amber.base,
           // error: colors.deepOrange.accent4,
           // success: colors.green.accent3
-        },
-      },
-    },
+        }
+      }
+    }
   },
   /*
    ** Build configuration
@@ -97,18 +97,18 @@ export default {
     /*
      ** Run ESLint on save
      */
-    extend(config) {
+    extend (config) {
       if (process.server && process.browser) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /(node_modules)/,
+          exclude: /(node_modules)/
         })
       }
-    },
+    }
   },
   generate: {
-    dir: 'public',
-  },
+    dir: 'public'
+  }
 }

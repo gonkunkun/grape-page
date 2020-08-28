@@ -1,9 +1,9 @@
 <template>
   <v-app>
     <core-app-bar />
-
-    <core-view />
-
+    <v-main>
+      <core-view />
+    </v-main>
     <core-footer />
   </v-app>
 </template>
