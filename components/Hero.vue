@@ -10,10 +10,10 @@
       >
         <v-col class="text-center hero__string" cols="12">
           <h1 class="display-1 font-weight-thin mb-4">
-            Vuetify.js
+            Sasaki's grape vineyard
           </h1>
           <h4 class="subheading">
-            Build your application today!
+            山梨県にあるぶどう農園です
           </h4>
         </v-col>
       </v-row>
@@ -33,7 +33,7 @@ export default {
 <style lang="scss" scoped>
 // sass-loader などを入れているとする
 .hero__content {
-  background: url("https://azukichi.net/season/img/autumn/aki-back046.jpg");
+  background: url("../assets/18338.jpg");
   background-size: cover;
   background-position: center center;
   width: 100%;
