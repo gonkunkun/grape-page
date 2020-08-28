@@ -49,7 +49,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/recentprojects.png')"
+          :src="require('@/assets/18345.jpg')"
           height="100%"
         />
       </v-col>
