@@ -1,0 +1,5 @@
+nuxt.config.js
+/plugins/*
+/store/default.js
+/node_modules/*
+/.nuxt/*
