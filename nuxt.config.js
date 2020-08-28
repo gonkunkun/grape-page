@@ -73,7 +73,6 @@ export default {
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
    */
-  devModules: ['@nuxtjs/vuetify'],
   vuetify: {
     // customVariables: ['~/assets/variables.scss'],
     theme: {
