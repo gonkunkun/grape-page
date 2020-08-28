@@ -18,21 +18,6 @@
     <v-spacer />
 
     <social-media />
-
-    <base-btn
-      class="ml-3"
-      large
-      href="https://store.vuetifyjs.com/product/freelancer-theme-free?ref=freelancer"
-    >
-      Download for Free
-
-      <v-icon
-        right
-        small
-      >
-        mdi-open-in-new
-      </v-icon>
-    </base-btn>
   </v-app-bar>
 </template>
 
