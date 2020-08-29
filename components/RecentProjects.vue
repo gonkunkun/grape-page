@@ -34,8 +34,9 @@
               >
                 <a href="#">
                   <v-img
-                    :src="require(`@/assets/${project}.jpeg`)"
+                    :src="require(`@/assets/${project}.jpg`)"
                     max-height="300"
+                    max-width="300"
                   />
                 </a>
               </v-col>
@@ -49,7 +50,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/18345.jpg')"
+          :src="require('@/assets/18340.jpg')"
           height="100%"
         />
       </v-col>
