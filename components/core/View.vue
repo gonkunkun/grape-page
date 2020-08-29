@@ -4,6 +4,8 @@
 
     <welcome />
 
+    <vine-yard />
+
     <recent-projects />
 
     <services />
@@ -24,7 +26,8 @@ export default {
     GetInTouch: () => import('@/components/GetInTouch'),
     RecentProjects: () => import('@/components/RecentProjects'),
     Services: () => import('@/components/Services'),
-    Welcome: () => import('@/components/Welcome')
+    Welcome: () => import('@/components/Welcome'),
+    VineYard: () => import('@/components/VineYard')
   }
 }
 </script>
