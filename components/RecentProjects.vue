@@ -13,14 +13,14 @@
           style="transform: rotate(180deg) translateX(25%)"
         />
 
-        <base-heading>
-          Recent Projects
+        <base-heading class="my-5">
+          農園紹介
         </base-heading>
-
-        <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipi<br>
-          scin elit. Etiam vulputate augue vel felis gravida<br>
-          porta. Lorem ipsum dolor sit amet.
+        <base-text class="subtitle-1 mb-5">
+          ○ヘクタールの広大な農園<br>
+          ○月〜○月にはピロキオーネを栽培<br>
+          山梨の土地を生かした？○○な栽培を実施<br>
+          ※どんな農園なのか。栽培品種等を紹介。上はとりあえず適当に書いてみただけ。
         </base-text>
 
         <v-card color="secondary">
@@ -52,6 +52,8 @@
         <v-img
           :src="require('@/assets/18340.jpg')"
           height="100%"
+          opacity="0.1"
+          class="recent__background"
         />
       </v-col>
     </v-row>
@@ -67,8 +69,15 @@ export default {
       'project1',
       'project2',
       'project3',
-      'project4'
+      '18339'
     ]
   })
 }
 </script>
+
+<style lang="scss" scoped>
+// sass-loader などを入れているとする
+.recent__background {
+  opacity: 0.8;
+}
+</style>

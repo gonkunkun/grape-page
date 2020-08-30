@@ -8,60 +8,28 @@
       no-gutters
     >
       <v-col
-        class="hidden-sm-and-down"
-        md="6"
-      >
-        <v-img
-          :src="require('@/assets/contact.png')"
-          height="100%"
-        />
-      </v-col>
-
-      <v-col
-        class="pa-5"
+        class="pt-5"
         cols="12"
-        md="6"
+        md="12"
       >
         <base-bubble-1 />
 
-        <base-heading class="mb-5">
-          Get In Touch
-        </base-heading>
-
-        <v-sheet
-          color="transparent"
-          max-width="600"
-        >
-          <v-text-field
-            color="info"
-            label="Name"
-            solo
-            flat
-          />
-
-          <v-text-field
-            color="info"
-            label="Email"
-            solo
-            flat
-          />
-
-          <v-text-field
-            color="info"
-            label="Subject"
-            solo
-            flat
-          />
-
-          <v-textarea
-            color="info"
-            label="Message"
-            solo
-            flat
-          />
-
-          <base-btn>Send</base-btn>
-        </v-sheet>
+        <!-- <base-heading class="mb-5">
+          お問い合わせ
+        </base-heading> -->
+        <base-text class="subtitle-1 mx-5">
+          商品の販売、農園の見学等については、返信用のメールアドレス/お電話番号、お名前をご記入の上、お問い合わせください。<br>
+          ※問合せフォームは作成中<br>
+        </base-text>
+      </v-col>
+      <v-col
+        class="pb-5"
+        cols="12"
+        md="12"
+        align="center"
+        justify="center"
+      >
+        <base-btn>お問い合わせはこちらから</base-btn>
       </v-col>
     </v-row>
   </section>

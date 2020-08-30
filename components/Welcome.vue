@@ -33,7 +33,9 @@
             cols="10"
             md="6"
           >
-            <base-heading class="my-5">Concepts</base-heading>
+            <base-heading class="info--text my-5">
+              コンセプト
+            </base-heading>
             <base-text class="subtitle-1">
               ○○という想いで農園を開園<br>
               ××なぶどうを日本/世界に発信<br>

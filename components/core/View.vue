@@ -13,7 +13,7 @@
     <about-me />
 
     <!-- 農園紹介 -->
-    <vine-yard />
+    <!-- <vine-yard /> -->
 
     <!-- <services /> -->
 
@@ -32,8 +32,8 @@ export default {
     GetInTouch: () => import('@/components/GetInTouch'),
     RecentProjects: () => import('@/components/RecentProjects'),
     // Services: () => import('@/components/Services'),
-    Welcome: () => import('@/components/Welcome'),
-    VineYard: () => import('@/components/VineYard')
+    Welcome: () => import('@/components/Welcome')
+    // VineYard: () => import('@/components/VineYard')
   }
 }
 </script>
