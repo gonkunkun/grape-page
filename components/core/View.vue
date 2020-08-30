@@ -1,17 +1,23 @@
 <template>
   <div>
+    <!-- ヒーローページ -->
     <hero />
 
+    <!-- コンセプト -->
     <welcome />
 
-    <vine-yard />
-
+    <!-- 農園紹介 -->
     <recent-projects />
 
-    <services />
-
+    <!-- 農園主紹介 -->
     <about-me />
 
+    <!-- 農園紹介 -->
+    <vine-yard />
+
+    <!-- <services /> -->
+
+    <!-- 問合せフォーム -->
     <get-in-touch />
   </div>
 </template>
@@ -25,7 +31,7 @@ export default {
     AboutMe: () => import('@/components/AboutMe'),
     GetInTouch: () => import('@/components/GetInTouch'),
     RecentProjects: () => import('@/components/RecentProjects'),
-    Services: () => import('@/components/Services'),
+    // Services: () => import('@/components/Services'),
     Welcome: () => import('@/components/Welcome'),
     VineYard: () => import('@/components/VineYard')
   }

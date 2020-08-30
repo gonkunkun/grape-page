@@ -37,7 +37,7 @@ export default {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  height: 50vh;
+  height: 100vh;
 }
 
 .hero__string {
