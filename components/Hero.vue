@@ -9,11 +9,12 @@
         justify="center"
       >
         <v-col class="text-center hero__string" cols="12">
-          <h1 class="display-1 font-weight-thin mb-4">
+          <h1 class="display-1 font-weight-bold mb-4">
             Sasaki's grape vineyard
           </h1>
           <h4 class="subheading">
-            山梨県にあるぶどう農園です
+            山梨県のぶどう農園
+            ※ぶどう農園のコンセプトやキーワードを記述
           </h4>
         </v-col>
       </v-row>

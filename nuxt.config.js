@@ -17,7 +17,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
+    titleTemplate: '%s - ' + '山梨ぶどう農園',
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },

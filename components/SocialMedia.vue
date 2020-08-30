@@ -31,14 +31,14 @@ export default {
         name: 'Twitter',
         icon: 'mdi-twitter'
       },
-      {
-        name: 'Instagram',
-        icon: 'mdi-instagram'
-      },
-      {
-        name: 'Facebook',
-        icon: 'mdi-facebook'
-      },
+      // {
+      //   name: 'Instagram',
+      //   icon: 'mdi-instagram'
+      // },
+      // {
+      //   name: 'Facebook',
+      //   icon: 'mdi-facebook'
+      // },
       {
         name: 'Email',
         icon: 'mdi-email'

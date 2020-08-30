@@ -15,61 +15,21 @@
         <base-bubble-1 style="transform: translate(5%, -5%)" />
 
         <base-heading class="info--text">
-          About Me
+          農園主
         </base-heading>
 
-        <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipi<br>
-          scin elit. Etiam vulputate augue vel felis gravida<br>
-          porta. Lorem ipsum dolor sit amet.
+        <base-text class="subtitle-1 mb-5">
+          佐々木<br>
+          これまでの自分の紹介<br>
+          ※写真と名前だけでも良いかも。写真は農園と自分が写っている写真があるとベスト。ぶどう栽培にかける想いや何かがあれば記述。
         </base-text>
-
-        <base-subheading class="info--text">
-          Skills
-        </base-subheading>
-
-        <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consecte tur adipi scin e<br>
-          lit. Etiam vulputate augu e vel felis gravida porta.
-        </base-text>
-
-        <v-alert
-          outlined
-          color="info"
-        >
-          <v-row
-            v-for="(skill, i) in skills"
-            :key="i"
-            style="color: #69A1BB;"
-          >
-            <v-col
-              class="text-uppercase"
-              cols="6"
-              v-text="skill.name"
-            />
-
-            <v-col
-              class="text-right"
-              cols="6"
-              v-text="`${skill.value}%`"
-            />
-
-            <v-progress-linear
-              :value="skill.value"
-              color="info"
-              height="8"
-            />
-          </v-row>
-        </v-alert>
       </v-col>
-
       <v-col
-        class="hidden-sm-and-down"
         md="6"
       >
         <v-img
-          :src="require('@/assets/aboutme.png')"
-          height="100%"
+          :src="require('@/assets/sample.jpg')"
+          height="50vh"
         />
       </v-col>
     </v-row>

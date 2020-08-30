@@ -9,7 +9,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/welcome.png')"
+          :src="require('@/assets/18343.jpg')"
           height="100vh"
         />
       </v-col>
@@ -27,25 +27,21 @@
         <v-row
           align="center"
           justify="center"
+          height="100vh"
         >
           <v-col
             cols="10"
             md="6"
           >
-            <base-heading>Welcome!</base-heading>
-            <base-text>
-              Lorem ipsum dolor sit amet, consectetur ad
-              ipiscin elit. Etiam vulputate augue vel felis gra
-              vida porta. Lorem ipsum dolor sit amet, cons
-              ectetur adipiscing elit.<br>
-              Lorem ipsum dolor sit amet, consectetur ad
-              ipiscin elit. Etiam vulputate augue vel felis gra
-              vida porta. Lorem ipsum dolor sit amet, cons
-              ectetur adipiscing elit.
+            <base-heading class="info--text my-5">
+              コンセプト
+            </base-heading>
+            <base-text class="subtitle-1">
+              ○○という想いで農園を開園<br>
+              ××なぶどうを日本/世界に発信<br>
+              甘さにこだわる<br>
+              ※農園のコンセプト/紹介を記述する。何かしらのかっこいい言葉を考えといて。<br>
             </base-text>
-            <base-btn class="mt-4">
-              Learn More!
-            </base-btn>
           </v-col>
         </v-row>
 
