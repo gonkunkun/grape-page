@@ -27,10 +27,10 @@ export default {
 
   data: () => ({
     items: [
-      {
-        name: 'Twitter',
-        icon: 'mdi-twitter'
-      },
+      // {
+      //   name: 'Twitter',
+      //   icon: 'mdi-twitter'
+      // },
       // {
       //   name: 'Instagram',
       //   icon: 'mdi-instagram'
