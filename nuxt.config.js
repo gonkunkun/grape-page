@@ -26,6 +26,69 @@ export default {
         hid: 'description',
         name: 'description',
         content: process.env.npm_package_description || ''
+      },
+      // SEO
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          '山梨県のぶどう農園です'
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        // Content: '佐々木園,ぶどう,山梨',
+        'xml:lang': 'ja',
+        lang: 'ja'
+      },
+      { name: 'author', content: '佐々木優太' },
+      // OGP
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: '佐々木園 - 山梨ぶどう農園'
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: '佐々木園 - 山梨ぶどう農園'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          '山梨県のぶどう農園です'
+      },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://grape-page.firebaseapp.com/'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '/assets/18339.jpg'
+      },
+      {
+        hid: 'fb:app_id',
+        property: 'fb:app_id',
+        content: '425218088280876'
+      },
+      {
+        hid: 'twitter:card',
+        property: 'twitter:card',
+        content: 'summary'
+      },
+      {
+        hid: 'twitter:site',
+        property: 'twitter:site',
+        content: 'https://grape-page.firebaseapp.com/'
+      },
+      {
+        hid: 'twitter:image',
+        property: 'twitter:image',
+        content: '/assets/18339.jpg'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
