@@ -18,7 +18,7 @@
           農園主
         </base-heading>
 
-        <base-text class="subtitle-1 mb-5">
+        <base-text class="mb-5">
           佐々木<br>
           これまでの自分の紹介<br>
           ※写真と名前だけでも良いかも。写真は農園と自分が写っている写真があるとベスト。ぶどう栽培にかける想いや何かがあれば記述。

@@ -6,13 +6,20 @@
     flat
   >
     <v-slide-x-transition>
-      <v-img
+      <!-- <v-img
         v-if="showLogo"
         :src="require('@/assets/logo.png')"
         class="shrink"
         contain
         height="50"
-      />
+      /> -->
+      <base-text
+        v-if="showLogo"
+        class="ma-1 font-weight-bold headline"
+        style="color: #D3C3BC"
+      >
+      佐々木園
+      </base-text>
     </v-slide-x-transition>
 
     <v-spacer />
