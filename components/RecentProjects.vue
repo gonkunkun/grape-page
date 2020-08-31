@@ -31,12 +31,15 @@
                 :key="project"
                 cols="12"
                 md="6"
+                align="center"
+                justify="center"
               >
                 <a href="#">
                   <v-img
                     :src="require(`@/assets/${project}.jpg`)"
                     max-height="300"
                     max-width="300"
+                    center
                   />
                 </a>
               </v-col>

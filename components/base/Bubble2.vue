@@ -1,6 +1,6 @@
 <template>
   <v-img
-    class="grow hidden-sm-and-down"
+    class="grow"
     contain
     max-height="200"
     width="100%"
