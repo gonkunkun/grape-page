@@ -68,7 +68,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://github.com/gonkunkun/grape-page/blob/master/assets/18339.jpg'
+        content: 'https://raw.githubusercontent.com/gonkunkun/grape-page/master/assets/18339.jpg'
       },
       {
         hid: 'fb:app_id',
@@ -88,7 +88,7 @@ export default {
       {
         hid: 'twitter:image',
         property: 'twitter:image',
-        content: 'https://github.com/gonkunkun/grape-page/blob/master/assets/18339.jpg'
+        content: 'https://raw.githubusercontent.com/gonkunkun/grape-page/master/assets/18339.jpg'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
