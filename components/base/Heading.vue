@@ -20,7 +20,9 @@ export default {
 }
 </script>
 
-<style lang="sass">
-  .v-heading
-    letter-spacing: 3px !important
+<style lang="scss" scoped>
+.v-heading {
+  letter-spacing: 3px !important;
+  font-family: 'ChihayaFont' !important;
+}
 </style>

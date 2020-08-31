@@ -9,13 +9,13 @@
         justify="center"
       >
         <v-col class="text-center hero__string" cols="12">
-          <h1 class="display-1 font-weight-bold mb-4">
-            Sasaki's grape vineyard
-          </h1>
-          <h4 class="subheading">
-            山梨県のぶどう農園
+          <base-heading class="font-weight-bold mb-4" style="font-family: ChiyahaFont">
+            佐々木園
+          </base-heading>
+          <base-subheading class="title">
+            山梨県のぶどう農園<br>
             ※ぶどう農園のコンセプトやキーワードを記述
-          </h4>
+          </base-subheading>
         </v-col>
       </v-row>
     </v-container>
@@ -32,6 +32,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 // sass-loader などを入れているとする
 .hero__content {
   background: url("../assets/18338.jpg");
@@ -43,5 +44,6 @@ export default {
 
 .hero__string {
   color: var(--white);
+  font-family: 'ChihayaFont' !important;
 }
 </style>

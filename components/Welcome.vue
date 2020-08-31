@@ -36,7 +36,7 @@
             <base-heading class="info--text my-5">
               コンセプト
             </base-heading>
-            <base-text class="subtitle-1">
+            <base-text class="">
               ○○という想いで農園を開園<br>
               ××なぶどうを日本/世界に発信<br>
               甘さにこだわる<br>

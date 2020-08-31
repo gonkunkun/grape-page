@@ -17,7 +17,7 @@
         <!-- <base-heading class="mb-5">
           お問い合わせ
         </base-heading> -->
-        <base-text class="subtitle-1 mx-5">
+        <base-text class="mx-5">
           商品の販売、農園の見学等については、返信用のメールアドレス/お電話番号、お名前をご記入の上、お問い合わせください。<br>
           ※問合せフォームは作成中<br>
         </base-text>

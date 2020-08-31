@@ -16,7 +16,7 @@
         <base-heading class="my-5">
           農園紹介
         </base-heading>
-        <base-text class="subtitle-1 mb-5">
+        <base-text class="mb-5">
           ○ヘクタールの広大な農園<br>
           ○月〜○月にはピロキオーネを栽培<br>
           山梨の土地を生かした？○○な栽培を実施<br>
